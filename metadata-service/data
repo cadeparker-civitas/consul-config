@@ -1,6 +1,5 @@
 civ:
   mds:
     atlas:
-      user: COOL
       password: admin
       url: http://atlas-demo.private.civitaslearning.com:21000
