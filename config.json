@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "repos" : [{
+    "name" : "config",
+    "source_root": "config",
+    "url" : "https://github.com/cadeparker-civitas/consul-config.git",
+    "branches" : ["master"],
+    "include_branch_name": false
+  }],
+  "no_daemon": true
+}
