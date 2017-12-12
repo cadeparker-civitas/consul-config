@@ -4,7 +4,7 @@
     "name" : "config",
     "source_root": "config",
     "url" : "file://$(pwd)",
-    "branches" : ["master"],
+    "branches" : ["bootstrap-local"],
     "include_branch_name": false
   }],
   "no_daemon": true
