@@ -34,6 +34,20 @@ fi
 
 echo "Running git2consul with config:"
 
+cat > $BOOTSTRAP_CONFIG << EOF
+{
+  "version": "1.0",
+  "repos" : [{
+    "name" : "config",
+    "source_root": "config",
+    "url" : "file://$BOOTSTRAP_DIR/..",
+    "branches" : ["bootstrap-local"],
+    "include_branch_name": false
+  }],
+  "no_daemon": true
+}
+EOF
+
 cat ${BOOTSTRAP_CONFIG}
 
 echo "\n"

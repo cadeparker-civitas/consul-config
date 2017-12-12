@@ -3,7 +3,7 @@
   "repos" : [{
     "name" : "config",
     "source_root": "config",
-    "url" : "file://$(pwd)",
+    "url" : "file:///Users/cparker/git/consul-config/local/..",
     "branches" : ["bootstrap-local"],
     "include_branch_name": false
   }],
