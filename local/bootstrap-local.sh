@@ -28,7 +28,7 @@ else
     echo "Starting Consul..."
 
     echo "command: consul agent -dev"
-    consul agent -dev &
+    consul agent -dev &> /dev/null &
   fi
 fi
 
