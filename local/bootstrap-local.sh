@@ -41,7 +41,7 @@ cat > $BOOTSTRAP_CONFIG << EOF
     "name" : "config",
     "source_root": "config",
     "url" : "file://$BOOTSTRAP_DIR/..",
-    "branches" : ["bootstrap-local"],
+    "branches" : ["master"],
     "include_branch_name": false
   }],
   "no_daemon": true
