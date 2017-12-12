@@ -3,7 +3,7 @@
   "repos" : [{
     "name" : "config",
     "source_root": "config",
-    "url" : "https://github.com/cadeparker-civitas/consul-config.git",
+    "url" : "file://$(pwd)",
     "branches" : ["master"],
     "include_branch_name": false
   }],
